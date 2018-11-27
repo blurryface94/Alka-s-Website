@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<title>Alka's CV</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+.bgimg {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('Images/dp.jpg');
+    min-height: 100%;
+}
+</style>
+<body>
+
+<!-- Sidebar with image -->
+<nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:40%">
+  <div class="bgimg"></div>
+</nav>
+
+<!-- Hidden Sidebar (reveals when clicked on menu icon)-->
+<nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Portfolio</a>
+    <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">About</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Contact</a>
+  </div>
+</nav>
+
+<!-- Page Content -->
+<div class="w3-main w3-padding-large" style="margin-left:40%">
+
+  <!-- Menu icon to open sidebar -->
+  <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+  <!-- Header -->
+  <header class="w3-container w3-center" style="padding:128px 16px" id="home">
+    <h1 class="w3-jumbo"><b>Alka Issac Sebastian</b></h1>
+    <p>Aspiring Data Person</p>
+    <img src="Images/dp.jpg" class="w3-image w3-hide-large w3-hide-small w3-round" style="display:block;width:60%;margin:auto;">
+    <img src="Images/dp.jpg" class="w3-image w3-hide-large w3-hide-medium w3-round" width="1000" height="1333">
+    <button type="submit" onclick="window.open('Files/Alka Issac Sebastian CV.docx')" class="w3-button w3-light-grey w3-padding-large w3-margin-top">
+      <i class="fa fa-download"></i> Download Resume
+    </button>
+  </header>
+
+  <!-- Portfolio -->
+  <div class="w3-padding-32 w3-content" id="portfolio">
+    <h2 class="w3-text-grey">My Skillset</h2>
+    <hr class="w3-opacity">
+
+    <!-- Grid -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="Images/html.jpg" style="width:25%">
+        <img src="Images/Msoffice.jpg" style="width:25%">
+        <img src="Images/css.jpg" style="width:25%">
+        <img src="Images/rprogramming.jpg" style="width:28%">
+        <img src="Images/orange.jpg" style="width:25%">
+        <img src="Images/vue.jpg" style="width:25%">
+      </div>
+
+      <div class="w3-half">
+        <img src="Images/sql.jpg" style="width:25%">
+        <img src="Images/project-management.jpg" style="width:25%">
+        <img src="Images/datawarehousing.jpg" style="width:25%">
+      </div>
+      <div class="w3-half">
+        <img src="Images/PythonLogo.jpg" style="width:25%">
+        <img src="Images/design thinking.jpg" style="width:25%">
+        <img src="Images/adobe-xd-cc-for-enterprise.jpg" style="width:25%">
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
+    <h2>About</h2>
+    <hr class="w3-opacity">
+    <p>I am a young Indian woman from the Kingdom of Saudi Arabia trying to find my place in this bustling city of Melbourne.
+      Ever since I was a little girl, I always dreamt of moving to a foreign land to pursue my dreams on my own. And now I am
+      here, about to graduate and in the pursuit of finding a good job that will enhance my learning experience. During the journey I
+      embarked upon 2 years ago, I came across interesting people and they opened my eyes. I realized that I have an undying quench
+      for learning new things. My masters made me understand various domains in my field and which one I am interested in. Data
+      is what that caught my attention. So, I dove in and found the unperceivable power of data which got me interested in Machine Learning. During my part-time personal study plan for Machine Learning along with my Masters, I realized how valuable the combination of web development and cloud services  along with Machine Learning skills are. So I decided to try my luck on web development.
+
+    </p>
+    <h3 class="w3-padding-16">My Skills</h3>
+    <p class="w3-wide">Technical Skills</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:75%">75%</div>
+    </div>
+    <p class="w3-wide">Communication Skills</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:80%">80%</div>
+    </div>
+    <p class="w3-wide">Analytical Skills</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:80%">80%</div>
+    </div>
+    <p class="w3-wide">Planning and Organisational Skills</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:87%">87%</div>
+    </div>
+    <p class="w3-wide">Teamwork Skills</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:93%">93%</div>
+    </div>
+    <p class="w3-wide">Quest for knowledge </p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:100%">100%</div>
+    </div><br>
+
+    <div class="w3-row w3-center w3-dark-grey w3-padding-8 w3-section">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">7.6</span><br>
+        Year 10
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">7.3</span><br>
+        Year 12
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">7</span><br>
+        Bachelors
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge"><h6>Awaiting Results</h6></span>
+        Masters
+      </div>
+    </div>
+
+    <button type="submit" onclick="window.open('Files/Alka Issac Sebastian CV.docx')" class="w3-button w3-light-grey w3-padding-large w3-section">
+      <i class="fa fa-download"></i> Download Resume
+    </button>
+
+
+    <h3 class="w3-padding-24">My Reference</h3>
+    <img src="Images/prof.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-text-black w3-margin-right">Dr. Petrus Usmanij</span></p>
+    <p> Lecturer MIS, Entrepreneurship Innovation & Marketing, La Trobe University Email:<a href="mailto:p.usmanij@latrobe.edu.au">p.usmanij@latrobe.edu.au</a></p><br>
+
+    <img src="Images/nar.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-text-black w3-margin-right"> Naren Shanbhag/Nate</span></p>
+    <p> Academic, Computer Science & Information Technology, La Trobe University Email:<a href="mailto:n.shanbhag@latrobe.edu.au">n.shanbhag@latrobe.edu.au</a></p><br>
+
+    <!-- tables -->
+    <h3 class="w3-padding-16">My Experience</h3>
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-center w3-card w3-hover-shadow">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Previous</li>
+          <li class="w3-padding-16">Team Leader, La Trobe Business Consultancy</li>
+          <li class="w3-padding-16">Team Member, MBIMS Group</li>
+          <li class="w3-padding-16">Administrative and Technical Support Officer, Human-Centered Innovations Pty Ltd</li>
+          <li class="w3-padding-16">Customer Service, Lalor Plaza Bakery</li>
+        </ul>
+      </div>
+
+      <div class="w3-half">
+        <ul class="w3-ul w3-center w3-card w3-hover-shadow">
+          <li class="w3-black w3-xlarge w3-padding-32">Current</li>
+          <li class="w3-padding-16">Customer Service, Koala Vision</li>
+          <li class="w3-padding-16">Personal Projects</li>
+        </ul>
+      </div>
+
+    </div>
+
+  <!-- End About Section -->
+  </div>
+
+
+  <div class="w3-padding-32 w3-content w3-text-grey" id="contact" style="margin-bottom:64px">
+    <h2>Contact Me</h2>
+    <hr class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Melbourne, Australia</p>
+      <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +61 046 525 401</p>
+      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i>Email: <a href="mailto:n.shanbhag@latrobe.edu.au">19159884@students.latrobe.edu.au</a></p>
+    </div>
+
+    <!-- Image of location/map -->
+    <img src="Images/city.jpg" class="w3-image w3-sepia-min" style="width:100%;margin:32px 0">
+    <div id='id01' class='mess'>
+       <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal"></span>
+    <p>Send me a message:</p>
+    <form action="Files/action_page.php" target="_parent">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button type="submit" onclick="document.getElementById('id01').style.display='block'" style="width:auto;" class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+        <div class="clearfix">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" style="width:auto;" class="w3-button w3-light-grey w3-padding-large" type="reset">
+          <i class="fa fa-paper-plane">CANCEL </i> </button>
+      </p>
+    </form>
+  </div>
+  </div>
+
+
+  <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin:-24px">
+    <p class="fa fa-linkedin w3-hover-opacity"> <a href="https://www.linkedin.com/in/alka-sebastian-b41b26149/" target="_blank" class="w3-hover-text-green">My Profile</a></p>
+  </footer>
+
+
+</div>
+
+<script>
+// Open and close sidebar
+function openNav() {
+    document.getElementById("mySidebar").style.width = "60%";
+    document.getElementById("mySidebar").style.display = "block";
+}
+
+function closeNav() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+var modal = document.getElementById('id01');
+</script>
+
+</body>
+</html>
